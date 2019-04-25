@@ -1,0 +1,27 @@
+下载git管理工具
+
+    git下载地址:www.git-scm.com
+
+    它是一个命令行工具 需要在终端 cmd 命令行 下操作
+
+    测试安装:
+        git --version 
+        git version 2.18.0.windows.1
+    命令行
+        git init 初始化一个仓库（本地）
+        git add 添加文件到仓库里（本地） add 命令没有任何反馈
+            git add <文件名称>
+            git add . //添加当前目录的所有文件到仓库
+        git commit 暂存到仓库
+            git commit -m "描述信息"
+        git branch 创建分支
+            git branch <分支名称>
+            git branch master //创建一个主分支
+        git branch // 查看分支
+        git branch <分支名称> -D  //删除分支
+        git checkout 切换分支
+            git checkout <已创建的分支名称>
+            git branch dev
+                Switched to branch 'dev'  //已经切换到dev 分支了
+        git merge //合并分支用的
+            git merge <合并的分支名称>
